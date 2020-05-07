@@ -25,7 +25,7 @@ def convertImageToBase64():
 
 
 
-ADAFRUIT_IO_KEY = 'aio_qsAC61OI9x8lP6xxyCBRbIvONU8O'
+ADAFRUIT_IO_KEY = '**************************'
 ADAFRUIT_IO_USERNAME = 'partharora'
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 picam_feed = aio.feeds('picam')
